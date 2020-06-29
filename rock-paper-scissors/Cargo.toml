@@ -1,0 +1,18 @@
+[package]
+name = "rock-paper-scissors"
+version = "0.1.0"
+authors = ["Hermann Yung <hermannyung@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.7.3"
+
+[[bin]]
+name = "v1"
+path = "src/main.rs"
+
+[[bin]]
+name = "v2"
+path = "src/main_v2.rs"
